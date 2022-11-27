@@ -1,0 +1,80 @@
+@keyframes color {
+    0%   { background: #0b0044; }
+    20%  { background: #00a6e7; }
+    40%  { background: green; }
+    60%  { background: #6eff81; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+}
+
+header{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+}
+
+#logo{
+    width: 400px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 10px green;
+    text-indent: 10px;
+    font-family:'Patrick Hand SC', cursive;
+    background-image: url("./imgs/logo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    border-radius: 20px;
+    border: 2px solid gray;
+    margin-bottom: 0px;
+}
+
+.nuevosTitulo{
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Patrick Hand SC', cursive;
+    color: white;
+    text-shadow: 2px 4px 10px black;
+    background: #33CCCC;
+    animation: color 9s infinite linear;
+    border-radius: 20px;
+}
+
+#NUEVO{
+    border: 2px solid gray;
+    border-radius: 20px;   
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 4px 10px #0b0044;
+}
+
+.ofertasTitulo{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    font-family:'Patrick Hand SC', cursive;
+    text-align: center;
+    text-shadow: 2px 4px 10px black;
+    background-image: url("./imgs/ofertas.jpg");
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+#OFERTAS{
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+footer{
+    border: 2px solid gray;
+    border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+header{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+}
+
+#logo{
+    width: 400px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 10px green;
+    text-indent: 10px;
+    font-family:'Patrick Hand SC', cursive;
+    background-image: url("./imgs/logo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+
+main{
+    border: 2px solid gray;
+}
+
+section{
+    border: 1px;
+    border-style:ridge;
+}
+
+section:hover{
+    box-shadow: 2px 4px 10px gray;
+}
+
+h2{
+    font-family:'Patrick Hand SC', cursive;
+}
+
+footer{
+    border: 2px solid gray;
+    border-radius: 20px;
+}

@@ -1,0 +1,79 @@
+header{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+}
+
+#logo{
+    width: 400px;
+    height: 200px;
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 10px green;
+    text-indent: 10px;
+    font-family:'Patrick Hand SC', cursive;
+    background-image: url("./imgs/logo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.registro{
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#NOMBRE{
+    text-transform: uppercase;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#NOMBRE:hover{
+    border-bottom: 2px solid #0b0044;
+}
+
+.datosG{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuenta{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CUENTA{
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CUENTA:hover{
+    border-bottom: 2px solid #0b0044;
+}
+
+.notificaciones{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.confirmar{
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    border: 2px solid gray;
+    border-radius: 20px;
+}

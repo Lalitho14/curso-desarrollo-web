@@ -1,0 +1,62 @@
+header{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+}
+
+#logo{
+    width: 400px;
+    height: 200px;
+}
+
+section{
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Patrick Hand SC', cursive;
+    text-indent: 10px;
+}
+
+h2{
+    font-family: 'Patrick Hand SC', cursive;
+    text-indent: 10px; 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    box-shadow: 2px 4px 10px gray;
+}
+
+.disponibles{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#TITULOS{
+    background-color: #00a6e7;
+}
+
+td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Patrick Hand SC', cursive;
+    text-indent: 10px;
+}
+
+iframe{
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+textarea{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
