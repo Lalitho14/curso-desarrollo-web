@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+#logo{
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.header-container{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+    margin: 0;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-container nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.header-container nav li a{
+    font-family: 'Patrick Hand SC', 'cursive';
+    font-size:larger;
+    color: aliceblue;
+}
+
+.header-container div{
+    display: flex;
+    justify-content: start;
+}
+
+.header-container input{
+    height: 1rem;
+    width: 20rem;
+    margin-right: 1rem;
+    text-indent: 1rem;
+
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+.header-container div img{
+    margin-left: 0.1rem;
+    width: 1rem;
+    position: absolute;
+    align-self:center;
+}
+
+.header-container div input:focus{
+    font-size: 18px;
+    width: 30rem;
+    background-color: #ffffff;
+    border: 2px solid #0b0044;
+    border-radius: 20px;
+}
+
+h1{
+    font-family:'Patrick Hand SC', cursive;
+}
+
+h2{
+    font-family:'Patrick Hand SC', cursive; 
+}
+
+main{
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+iframe{
+    height:20rem;
+    width: 100%;
+    border: 0;
+}
+
+footer{
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: grey;
+}

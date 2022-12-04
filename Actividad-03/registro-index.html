@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style-registro.css">
+    <title>MEXICOMPUTO</title>
+</head>
+<body>
+    <header class="header-container">
+        <img src="./imgs/logo.jpg" alt="LOGO DE LA EMPRESA" id="logo">
+        <nav>
+            <li>
+                <a href="./index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="./productos-index.html">PRODUCTOS</a>
+            </li>
+            <li>
+                <a href="./ubicacion-index.html">UBICACION</a>
+            </li>
+            <li>
+                <a href="./registro-index.html">REGISTRATE</a>
+            </li>
+        </nav>
+        <div>
+            <input type="text" placeholder="Buscar...">
+            <img src="./imgs/busqueda.png" alt="buscar" id="busqueda">
+        </div>
+    </header>
+    <main>
+        <section class="registro">
+            <h1>REGISTRATE</h1>
+            <form action="">
+                <div class="datosG">
+                    <label for="">Nombre : </label>
+                    <input placeholder="Escriba su nombre(s)" type="text" id="NOMBRE">
+                    <label for="">Apellidos : </label>
+                    <input type="text" placeholder="Escriba sus apellidos" id="NOMBRE">
+                    <label for="">Edad : </label>
+                    <input type="number" placeholder="Escriba su edad" id="NOMBRE">
+
+                    <label for="">PAIS</label>
+                    <select name="pais" id="">
+                        <option value="MEXICO">MEXICO</option>
+                        <option value="ARGENTINA">ARGENTINA</option>
+                        <option value="OTRO">OTRO</option>
+                    </select>
+                </div>
+
+                <div class="cuenta">
+                    <label for="">Correo</label>
+                    <input placeholder="Introduce tu email" type="email" id="CUENTA">
+                    <label for="">Contraseña</label>
+                    <input placeholder="Introduce tu clave" type="password" id="CUENTA">
+                </div>
+
+                <div class="notificaciones">
+                    <label for="">RECIBIR OFERTAS</label>
+                    <input type="checkbox">
+                </div>
+                
+                <div class="confirmar">
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar Formulario">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            @Copyright - MEXICOMPUTO S.A. de C.V.
+        </p>
+    </footer>
+</body>

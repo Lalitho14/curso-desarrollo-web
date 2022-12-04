@@ -1,0 +1,208 @@
+@keyframes color {
+    0%   { background: #0b0044; }
+    20%  { background: #00a6e7; }
+    40%  { background: green; }
+    60%  { background: #6eff81; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+}
+
+@keyframes bordersColors {
+    0%   {  border:0;}
+    25%   { border-bottom: 2px solid;
+            border-radius: 10px;
+            border-color: #33CC36; }
+    50%  { border-right: 2px solid;
+           border-radius: 10px;
+           border-color: #33CC36;  }
+    75%  { border-top: 2px solid;
+           border-radius: 10px;
+           border-color: #33CC36;   }
+    100%  { border-left: 2px solid;
+           border-radius: 10px;
+           border-color: #33CC36; }
+}
+
+*{
+    margin: 0;
+}
+
+#logo{
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.header-container{
+    border: 2px solid gray;
+    background: linear-gradient(#0b0044, #00a6e7);
+    margin: 0;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-container nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.header-container nav li a{
+    font-family: 'Patrick Hand SC', 'cursive';
+    font-size:larger;
+    color: aliceblue;
+}
+
+.header-container div{
+    display: flex;
+    justify-content: start;
+}
+
+.header-container input{
+    height: 1rem;
+    width: 20rem;
+    margin-right: 1rem;
+    text-indent: 1rem;
+
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+.header-container div img{
+    margin-left: 0.1rem;
+    width: 1rem;
+    position: absolute;
+    align-self:center;
+}
+
+.header-container div input:focus{
+    font-size: 18px;
+    width: 30rem;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 10px green;
+    text-indent: 10px;
+    font-family:'Patrick Hand SC', 'cursive';
+    background-image: url("./imgs/logo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    /* border-radius: 20px; */
+    border: 2px solid gray;
+    margin-bottom: 0px;
+}
+
+.nuevosTitulo{
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Patrick Hand SC', cursive;
+    color: white;
+    text-shadow: 2px 4px 10px black;
+    background: #33CCCC;
+    animation: color 9s infinite linear;
+    /* border-radius: 20px; */
+}
+
+.NUEVO{
+    border: 2px solid gray;
+    border-radius: 20px;   
+    display: flex;
+    flex-direction: column;
+}
+
+.NUEVO div{
+    display: grid;
+    grid-template-areas: 
+        " item1 item3"
+        " item2 . ";
+    padding: 4rem;
+    justify-items: center;
+}
+
+.NUEVO div:hover{
+    box-shadow: 2px 4px 10px #0b0044;
+    border-radius: 20px;
+}
+
+.item1{
+    grid-area: item1;
+    /* align-self: center; */
+}
+
+.item2{
+    grid-area: item2;
+    margin: 1rem;
+    /* align-self: center; */
+}
+
+.item3{
+    grid-area: item3;
+    align-self: center;
+    margin: 2rem;
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 4px 10px #000000;
+    margin: 1rem;
+}
+
+.ofertasTitulo{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    font-family:'Patrick Hand SC', cursive;
+    text-align: center;
+    text-shadow: 2px 4px 10px black;
+    background-image: url("./imgs/ofertas.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.ofertasContainer div{
+    border: 2px solid gray;
+    border-radius: 20px;
+    display: grid;
+    grid-template-areas: 
+    " item1 item3 "
+    " item2 . ";
+    padding: 4rem;
+    justify-items: center;
+}
+
+.ofertasContainer div:hover{
+    box-shadow: 2px 4px 10px #0b0044;
+    border-radius: 20px;
+}
+
+.carritoCompras{
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left: 90%;
+}
+
+.carritoCompras img{
+    width: 80px;
+    height: 80px;
+    animation: bordersColors 1.5s infinite linear;
+}
+
+footer{
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: grey;
+}
