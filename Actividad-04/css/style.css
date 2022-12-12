@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Geo&display=swap");
+@keyframes bordersColors {
+  0% {
+    border: 0;
+  }
+  25% {
+    border-bottom: 2px solid;
+    border-radius: 10px;
+    border-color: #33CC36;
+  }
+  50% {
+    border-right: 2px solid;
+    border-radius: 10px;
+    border-color: #33CC36;
+  }
+  75% {
+    border-top: 2px solid;
+    border-radius: 10px;
+    border-color: #33CC36;
+  }
+  100% {
+    border-left: 2px solid;
+    border-radius: 10px;
+    border-color: #33CC36;
+  }
+}
+#Logo {
+  width: 0rem;
+}
+
+#Carrito {
+  width: 2rem;
+  align-self: center;
+  display: flex;
+}
+
+.navbar {
+  background-color: #3979B4;
+}
+.navbar div a {
+  font-family: "Geo", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  font-family: "Geo", sans-serif;
+  font-size: 2rem;
+}
+.nav-item a {
+  color: white;
+}
+
+.btn-bd-primary {
+  font-family: "Geo", sans-serif;
+  font-size: 1.2rem;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: black;
+  --bs-btn-bg: white;
+  --bs-btn-border-color: black;
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: Green;
+  --bs-btn-hover-border-color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+.LoNuevo {
+  grid-column: 1/3;
+}
+.LoNuevo h2 {
+  background: rgba(57, 121, 180, 0.7);
+  color: white;
+  padding: 0.35rem;
+  font-family: "Fugaz One", cursive;
+  font-style: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.LoNuevo:hover {
+  box-shadow: 0px 4px 4px rgba(0, 103, 78, 0.25);
+}
+
+.c-item1 {
+  position: relative;
+}
+
+.carrusel1 {
+  height: 17rem;
+  overflow: hidden;
+}
+
+.item1 {
+  padding: 2.5rem;
+  display: grid;
+  grid-template-areas: " item1 item3 " " item2 . ";
+  gap: 1rem;
+  justify-items: center;
+}
+.item1 img {
+  width: 10rem;
+}
+.item1 p {
+  height: 10rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  z-index: 10;
+}
+.item1 a {
+  text-decoration: none;
+  z-index: 20;
+}
+.item1 a h3 {
+  text-decoration: none;
+  color: black;
+}
+
+.flechas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.flechas a i {
+  color: black;
+  font-size: 2rem;
+}
+
+.Ofertas, .MVendido {
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+.Ofertas h2, .MVendido h2 {
+  color: white;
+  font-family: "Fugaz One", cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: url("../imgs/ofertas.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+.Ofertas .carrusel1, .MVendido .carrusel1 {
+  height: 8rem;
+}
+.Ofertas .carrusel1 .flechas, .MVendido .carrusel1 .flechas {
+  padding: 1px;
+}
+.Ofertas .carrusel1 .flechas a i, .MVendido .carrusel1 .flechas a i {
+  font-size: smaller;
+}
+.Ofertas .item1, .MVendido .item1 {
+  padding: 0;
+  gap: 0rem;
+  margin-bottom: 2rem;
+}
+.Ofertas .item1 img, .MVendido .item1 img {
+  width: 5rem;
+}
+.Ofertas .item1 p, .MVendido .item1 p {
+  height: 5rem;
+  width: 5rem;
+  font-size: smaller;
+}
+.Ofertas .item1 h3, .MVendido .item1 h3 {
+  font-size: small;
+}
+
+.Ofertas:hover, .MVendido:hover {
+  box-shadow: 0px 4px 4px rgba(0, 103, 78, 0.25);
+}
+
+.MVendido h2 {
+  color: white;
+  font-family: "Fugaz One", cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: url("../imgs/stonks.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.MVendido:hover {
+  box-shadow: 0px 4px 4px rgba(0, 103, 78, 0.25);
+}
+
+.Promos {
+  display: none;
+}
+
+footer {
+  border: 2px solid black;
+  background-color: grey;
+  margin-top: 1rem;
+}
+footer img {
+  width: 100%;
+  height: 3.5rem;
+  mix-blend-mode: darken;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.42);
+  font-size: smaller;
+  font-family: "Fugaz One", cursive;
+}
+
+@media only screen and (min-width: 993px) {
+  #Logo {
+    width: 6rem;
+    border-radius: 150px;
+  }
+  #Carrito {
+    display: flex;
+    position: fixed;
+    width: 90px;
+    top: 80%;
+    left: 88%;
+    z-index: 30;
+    animation: bordersColors 2s infinite linear;
+  }
+  main {
+    display: grid;
+    grid-template-areas: "c1 c3" "c4 c2";
+  }
+  .LoNuevo {
+    grid-area: c1;
+  }
+  .Ofertas, .MVendido {
+    grid-area: c2;
+  }
+  .Ofertas h2, .MVendido h2 {
+    padding: 0.35rem;
+  }
+  .Ofertas .carrusel1, .MVendido .carrusel1 {
+    height: 17rem;
+    overflow: hidden;
+  }
+  .Ofertas .item1, .MVendido .item1 {
+    padding: 2.5rem;
+    display: grid;
+    grid-template-areas: " item1 item3 " " item2 . ";
+    gap: 1rem;
+    justify-items: center;
+  }
+  .Ofertas .item1 img, .MVendido .item1 img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .Ofertas .item1 p, .MVendido .item1 p {
+    height: 10rem;
+    width: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 10;
+    font-size: medium;
+  }
+  .Ofertas .item1 h3, .MVendido .item1 h3 {
+    font-size: 1.8rem;
+  }
+  .MVendido {
+    grid-area: c3;
+  }
+  .Promos {
+    grid-area: c4;
+    display: flex;
+  }
+  .Promos img {
+    width: 100%;
+    padding: 4rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer img {
+    width: 30%;
+    height: 3.5rem;
+    mix-blend-mode: darken;
+  }
+}
+@keyframes imagenesRotacion {
+  from {
+    transform: rotateY(360deg) translateZ(210px) rotateY(-360deg);
+    z-index: 10;
+    opacity: 1;
+  }
+  50% {
+    z-index: -10;
+  }
+  to {
+    transform: rotateY(0deg) translateZ(210px) rotateY(0deg);
+    z-index: 10;
+    opacity: 1;
+  }
+}
+.Producto-S {
+  display: flex;
+  flex-direction: column;
+}
+
+.producto {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  height: 12rem;
+  perspective: 650px;
+  position: relative;
+  overflow: hidden;
+}
+
+.producto img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+}
+
+.imagenes {
+  animation-name: imagenesRotacion;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#imagen1 {
+  animation-delay: -7s;
+  box-shadow: 2px 4px 10px #0b0044;
+}
+
+#imagen2 {
+  animation-delay: -6s;
+  box-shadow: 2px 4px 10px #0b0044;
+}
+
+#imagen3 {
+  animation-delay: -5s;
+  box-shadow: 2px 4px 10px #0b0044;
+}
+
+#imagen4 {
+  animation-delay: -4s;
+  box-shadow: 2px 4px 10px #0b0044;
+}
+
+.Review h3 {
+  font-family: "Fugaz One", cursive;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Review iframe {
+  width: 100%;
+}
+
+.Comentarios {
+  align-items: center;
+  align-content: center;
+}
+.Comentarios h3 {
+  font-family: "Fugaz One", cursive;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Comentarios textarea {
+  width: 100%;
+  padding: 1rem;
+  align-self: center;
+}
+
+.Categorias {
+  display: flex;
+  flex-direction: column;
+}
+.Categorias h1 {
+  color: white;
+  font-family: "Fugaz One", cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: url(../imgs/logo.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.Procesadores h2, .Mouse h2, .Teclados h2, .TGraficas h2 {
+  font-family: "Fugaz One", cursive;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Procesadores:hover, .Mouse:hover, .Teclados:hover, .TGraficas:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.TGraficas:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Teclados:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Mouse:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 993px) {
+  #Logo {
+    width: 6rem;
+    border-radius: 150px;
+  }
+  #Carrito {
+    display: flex;
+    position: fixed;
+    width: 90px;
+    top: 80%;
+    left: 88%;
+    z-index: 30;
+    animation: bordersColors 2s infinite linear;
+  }
+}
+.registro {
+  display: flex;
+  flex-direction: column;
+}
+.registro h1 {
+  color: white;
+  font-family: "Fugaz One", cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: url(../imgs/logo.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.datosG, .cuenta {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#NOMBRE {
+  text-transform: uppercase;
+  border: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#NOMBRE:hover {
+  border-bottom: 2px solid #0b0044;
+}
+
+#CUENTA {
+  border: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#CUENTA:hover {
+  border-bottom: 2px solid #0b0044;
+}
+
+.notificaciones {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.confirmar {
+  align-self: center;
+}
+.confirmar input {
+  border-radius: 150px;
+  padding: 0.4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+}
+
+.Ubicaciones {
+  display: flex;
+  flex-direction: column;
+}
+.Ubicaciones h1 {
+  color: white;
+  font-family: "Fugaz One", cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: url(../imgs/logo.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.SucursalP h2, .SucursalBA h2 {
+  font-family: "Fugaz One", cursive;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.SucursalP iframe, .SucursalBA iframe {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
