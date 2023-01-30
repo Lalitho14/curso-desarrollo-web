@@ -1,0 +1,8 @@
+@mixin banner($imagen){
+    color: white;
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 2px 4px 10px black;
+    background-image: $imagen;
+    background-size: contain;
+    background-attachment: fixed;
+}
