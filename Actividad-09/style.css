@@ -1,0 +1,9 @@
+#item_color{
+    color: red;
+}
+
+.pdts_item{
+    border: solid 2px red;
+    margin: 1rem;
+    transition: all 1s;
+}
