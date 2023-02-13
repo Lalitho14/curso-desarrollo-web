@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "procesador",
+        "precio": 2000,
+        "marca": "AMD"
+    },
+    {
+        "nombre": "teclado",
+        "precio": 500,
+        "marca": "GameFactor"
+    },
+    {
+        "nombre":"mouse",
+        "precio": 300,
+        "marca": "Logitech"
+    },
+    {
+        "nombre": "Tarjeta de video",
+        "precio": 5000,
+        "marca": "Nvidia"
+    }
+]
