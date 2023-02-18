@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Ryzen 5 5500",
+    "precio": 1900,
+    "marca": "AMD",
+    "stock": 20,
+    "componente": "Procesador",
+    "imagenes": {
+      "1": "../img/Productos/Procesadores/AMD-Ryzen-5-5500-1.png",
+      "2": "../img/Productos/Procesadores/AMD-Ryzen-5-5500-2.png",
+      "3": "../img/Productos/Procesadores/AMD-Ryzen-5-5500-3.jpg"
+    }
+  },
+  {
+    "nombre": "i5 12th",
+    "precio": 2200,
+    "marca": "Intel",
+    "stock": 21,
+    "componente": "Procesador",
+    "imagenes": {
+      "1": "../img/Productos/Procesadores/INTEL-i5_12-1.jpg",
+      "2": "../img/Productos/Procesadores/INTEL-i5_12-2.jpeg",
+      "3": "../img/Productos/Procesadores/INTEL-i5_12-3.jpeg"
+    }
+  },
+  {
+    "nombre": "i3 12th",
+    "precio": 1900,
+    "marca": "Intel",
+    "stock": 10,
+    "componente": "Procesador",
+    "imagenes": {
+      "1": "../img/Productos/Procesadores/INTEL-i3_12-1.jpg",
+      "2": "../img/Productos/Procesadores/INTEL-i3_12-2.jpg",
+      "3": "../img/Productos/Procesadores/INTEL-i3_12-3.jpg"
+    }
+  },
+  {
+    "nombre": "Teclado Ocelot",
+    "precio": 600,
+    "marca": "Ocelot",
+    "stock": 12,
+    "componente": "Teclado",
+    "imagenes": {
+      "1": "../img/Productos/Teclados/Ocelot01-1.jpg",
+      "2": "../img/Productos/Teclados/Ocelot01-2.jpg",
+      "3": "../img/Productos/Teclados/Ocelot01-3.jpg"
+    }
+  },
+  {
+    "nombre": "Teclado Asus",
+    "precio": 1200,
+    "marca": "ASUS",
+    "stock": 22,
+    "componente": "Teclado",
+    "imagenes": {
+      "1": "../img/Productos/Teclados/Asus-01.jpg",
+      "2": "../img/Productos/Teclados/Asus-02.jpg",
+      "3": "../img/Productos/Teclados/Asus-03.jpg"
+    }
+  },
+  {
+    "nombre": "Rx 6600x",
+    "precio": 5000,
+    "marca": "AMD",
+    "stock": 34,
+    "componente": "Tarjeta Grafica",
+    "imagenes": {
+      "1": "../img/Productos/TarjetasGraficas/Rx-6600-1.jpg",
+      "2": "../img/Productos/TarjetasGraficas/Rx-6600-2.jpg",
+      "3": "../img/Productos/TarjetasGraficas/Rx-6600-3.jpg"
+    }
+  },
+  {
+    "nombre": "RTX 3060Ti",
+    "precio": 6000,
+    "marca": "Nvidia",
+    "stock": 45,
+    "componente": "Tarjeta Grafica",
+    "imagenes": {
+      "1": "../img/Productos/TarjetasGraficas/Rtx-3060ti-1.jpg",
+      "2": "../img/Productos/TarjetasGraficas/Rtx-3060ti-2.jpg",
+      "3": "../img/Productos/TarjetasGraficas/Rtx-3060ti-3.jpg"
+    }
+  },
+  {
+    "nombre": "Mouse g502",
+    "precio": 1000,
+    "marca": "Logitech",
+    "stock": 11,
+    "componente": "Mouse",
+    "imagenes": {
+      "1": "../img/Productos/Mouse/Logitech01-01.jpg",
+      "2": "../img/Productos/Mouse/Logitech01-02.jpg",
+      "3": "../img/Productos/Mouse/Logitech01-03.jpg"
+    }
+  },
+  {
+    "nombre": "Mouse Viper Mini",
+    "precio": 660,
+    "marca": "Razer",
+    "stock": 22,
+    "componente": "Mouse",
+    "imagenes": {
+      "1": "../img/Productos/Mouse/Razer01-01.jpg",
+      "2": "../img/Productos/Mouse/Razer01-02.jpeg",
+      "3": "../img/Productos/Mouse/Razer01-03.jpeg"
+    }
+  }
+]

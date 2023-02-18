@@ -1,0 +1,66 @@
+#carritoMain {
+  position: fixed;
+  top: 30%;
+  width: 100%;
+  height: 50%;
+  display: none;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.1);
+  border: solid 1px black;
+  overflow-y: auto;
+}
+
+.contedorCarrito {
+  padding: 1rem;
+  width: 100%;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+#titulo {
+  width: 100%;
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: start;
+  border-bottom: solid 1px black;
+  align-self: center;
+}
+
+#btn_salir{
+  margin: 0;
+  justify-self: end;
+  color: red;
+  border-bottom: solid 1px black;
+  align-self: center;
+  cursor: pointer;
+}
+
+#carritoVacio {
+  margin: 0;
+  padding: 1rem;
+  justify-self: center;
+  grid-column: 1/4;
+}
+
+#nombreC{
+  padding: 1rem;
+  font-size: large;
+}
+
+#cantdC{
+  padding: 1rem;
+}
+
+#precioC{
+  padding: 1rem;
+}
+
+#comprar{
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 1rem;
+}

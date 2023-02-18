@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.marcas {
+  position: relative;
+  z-index: -1;
+}
+
+#productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: -2;
+}
+
+.productos {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.opcionesP {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  padding: 2rem;
+}
+.opcionesP #btn_ordenar {
+  font-size: small;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  transition-duration: 0.2s;
+}
+
+.producto_item {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem;
+}
+.producto_item h2 {
+  font-size: large;
+}
+.producto_item img {
+  height: 5rem;
+}
+.producto_item #add_cart {
+  font-size: small;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  transition-duration: 0.2s;
+}
+.producto_item #more {
+  font-size: small;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  transition-duration: 0.2s;
+}
+
+#add_cart:active,
+#more:active,
+#btn_busqueda:active,
+#btn_ordenar:active {
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+@media (min-width: 760px) {
+  .marcas {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-self: centers;
+  }
+  main {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  #productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    z-index: -2;
+  }
+  .producto_item {
+    gap: 1rem;
+  }
+  .producto_item h2 {
+    font-size: initial;
+  }
+  .producto_item img {
+    height: 15rem;
+  }
+  .producto_item #add_cart {
+    font-size: initial;
+  }
+  .producto_item #more {
+    font-size: initial;
+  }
+  #err_busqueda {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  footer {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  #add_cart:hover,
+  #more:hover,
+  #btn_busqueda:hover,
+  #btn_ordenar:hover {
+    border: solid 1px white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 10px 5px 0 rgba(255, 255, 255, 0.5);
+    background-color: black;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

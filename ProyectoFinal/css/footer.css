@@ -1,0 +1,22 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+footer h6 {
+  text-align: center;
+  color: white;
+}
+footer p {
+  text-align: center;
+  align-self: center;
+  color: white;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+.redes a {
+  font-size: larger;
+}
+
+/*# sourceMappingURL=footer.css.map */
