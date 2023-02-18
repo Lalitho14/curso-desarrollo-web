@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header>
       <a href="./index.html" class="logo">
@@ -30,11 +31,6 @@
           </li>
           <li>
             <a href="./nosotros.html">NOSOTROS</a>
-          </li>
-          <li class="busqueda">
-            <input type="search" placeholder="Buscar..." id="cuadro_busqueda" />
-            <button id="btn_busqueda">Buscar</button>
-          </li>
           <li>
             <iconify-icon
               id="carrito"
@@ -47,39 +43,50 @@
     </header>
 
     <main>
-      <h1>LOS PRODUCTOS PARA TU PC</h1>
-      <section class="marcas">
-        <div
-          id="carouselExampleAutoplaying"
-          class="carousel d-flex"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./img/marca1.png" class="d-flex w-100" alt="Marca1" />
-            </div>
-            <div class="carousel-item">
-              <img src="./img/marca2.jpg" class="d-flex w-100" alt="Marca2" />
-            </div>
-            <div class="carousel-item">
-              <img src="./img/marca3.jpg" class="d-flex w-100" alt="Marca3" />
-            </div>
+      <section>
+        <h1 class="tituloR">REGISTRATE</h1>
+        <form action="" class="formulario">
+          <div class="datosG">
+            <label for="">Nombre : </label>
+            <input placeholder="Escriba su nombre(s)" type="text" id="NOMBRE" />
+            <label for="">Apellidos : </label>
+            <input
+              type="text"
+              placeholder="Escriba sus apellidos"
+              id="NOMBRE"
+            />
+            <label for="">Edad : </label>
+            <input type="number" placeholder="Escriba su edad" id="NOMBRE" />
+
+            <label for="">Pais : </label>
+            <select name="pais" id="">
+              <option value="MEXICO">MEXICO</option>
+              <option value="ARGENTINA">ARGENTINA</option>
+              <option value="OTRO">OTRO</option>
+            </select>
           </div>
-        </div>
-      </section>
-      <section id="carritoMain"></section>
-      <section class="productos">
-        <div class="opcionesP">
-          <select name="Ordenar" id="ord_tipo">
-            <option>Precio Ascendente</option>
-            <option>Precio Descendente</option>
-            <option>A-Z</option>
-            <option>Z-A</option>
-            <option>Relevancia</option>
-          </select>
-          <button id="btn_ordenar">Ordenar</button>
-        </div>
-        <div id="productos" class="contenedorC"></div>
+
+          <div class="cuenta">
+            <label for="">Correo : </label>
+            <input placeholder="Introduce tu email" type="email" id="CUENTA" />
+            <label for="">Contraseña : </label>
+            <input
+              placeholder="Introduce tu clave"
+              type="password"
+              id="CUENTA"
+            />
+          </div>
+
+          <div class="notificaciones">
+            <label for="">RECIBIR OFERTAS</label>
+            <input type="checkbox" />
+          </div>
+
+          <div class="confirmar">
+            <input type="submit" value="Enviar formulario" />
+            <input type="reset" value="Limpiar Formulario" />
+          </div>
+        </form>
       </section>
     </main>
 
@@ -128,8 +135,5 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/carrito.js"></script>
-    <script src="./js/buscar.js"></script>
   </body>
 </html>

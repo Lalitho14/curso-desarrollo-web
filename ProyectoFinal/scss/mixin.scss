@@ -1,0 +1,19 @@
+@mixin botones() {
+  font-size: small;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  transition-duration: 0.2s;
+}
+
+@mixin banner($imagen){
+  color: white;
+  font-family: 'Fugaz One', cursive;
+  text-shadow: 2px 4px 10px black;
+  background-image: $imagen;
+  background-size: contain;
+  background-attachment: fixed;
+}

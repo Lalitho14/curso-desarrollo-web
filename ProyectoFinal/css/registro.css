@@ -1,9 +1,9 @@
 /* Error: Undefined mixin.
  *   ,
- * 9 |   @include banner(url(../img/fondo1.jpg));
+ * 7 |   @include banner(url(../img/fondo1.jpg));
  *   |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  *   '
- *   scss/index.scss 9:3  root stylesheet */
+ *   scss/registro.scss 7:3  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502    @include banner(url(../img/fondo1.jpg));\a   \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/index.scss 9:3  root stylesheet";
+  content: "Error: Undefined mixin.\a   \2577 \a 7 \2502    @include banner(url(../img/fondo1.jpg));\a   \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/registro.scss 7:3  root stylesheet";
 }
